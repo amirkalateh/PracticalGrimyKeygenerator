@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 import os
 from cryptography.fernet import Fernet
+a=45
+print(a)
 
 class SecureCryptor:
     def __init__(self):
@@ -15,7 +17,7 @@ class SecureCryptor:
         self.fg_color = "white"
         self.btn_color = "#3498db"
         self.window.configure(bg=self.bg_color)
-
+   
         self.key = None
         self.key_path = None
         self.setup_gui()
